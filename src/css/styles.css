@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url('../fonts/Gilroy.ttf') format('ttf');
+    font-weight: 700;      
+}
+
+@font-face {
+    font-family: 'Gilroy-semiBold';
+    src: url('../fonts/Gilroy.ttf') format('ttf');   
+    font-weight: 600;      
+}
+
+@font-face {
+    font-family: 'Gilroy-medium';
+    src: url('../fonts/Gilroy.ttf') format('ttf');      
+    font-weight: 500;   
+}
+
+body {
+    width: 100%;
+    font-family: 'Gilroy', sans-serif;
+}
+
+/* ---------------------------hero----------------------------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 100px;
+    background-color: aqua;
+}
+
+header>img{
+    width: 141px;
+    height: 33px;
+}
+
+header>nav{
+    display: flex;
+    justify-content:space-around;
+    gap: 40px;
+}
+
+header>.space-navigation{
+
+}
