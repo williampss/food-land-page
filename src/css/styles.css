@@ -17,12 +17,12 @@
 }
 
 :root {
-  --cor-primary: rgba(0, 160, 0, 1);
-  --cor-white: rgba(255, 255, 255, 1);
-  --cor-black: rgba(0, 0, 1, 1);
-  --cor-grey: rgba(0, 0, 0, 1);
-  --cor-grey2: rgba(153, 153, 153, 1);
-  --cor-BGOverlay: rgba(250, 250, 250, 1);
+    --cor-primary: rgba(0, 160, 0, 1);
+    --cor-white: rgba(255, 255, 255, 1);
+    --cor-black: rgba(0, 0, 1, 1);
+    --cor-grey: rgba(0, 0, 0, 1);
+    --cor-grey2: rgba(153, 153, 153, 1);
+    --cor-BGOverlay: rgba(250, 250, 250, 1);
 }
 
 
@@ -56,7 +56,7 @@ header>nav>a {
     cursor: pointer;
 }
 
-nav> a:hover{
+nav>a:hover {
     color: rgba(0, 160, 0, 1);
 }
 
@@ -72,14 +72,10 @@ header>.space-navigation {
     gap: 14px;
 }
 
-.space-navigation>.space-icons>.fa-solid{
-    font-size: 24PX;
-    cursor: pointer;
-}
-
 .space-navigation>.space-icons>a>.fa-solid {
     color: rgba(0, 0, 1, 1);
     font-size: 24px;
+    cursor: pointer;
 }
 
 .space-navigation>button {
@@ -93,7 +89,7 @@ header>.space-navigation {
 
 /* ---------------------------start-hero----------------------------------- */
 
-main>.hero{
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,38 +98,38 @@ main>.hero{
     margin-left: 100px
 }
 
-.hero> .hero-content{
+.hero>.hero-content {
     width: 583px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.hero-content> h1{
+.hero-content>h1 {
     /* font-family: 'Gilroy-medium'; */
     font-size: 60px;
     color: rgba(0, 0, 1, 1);
     padding-bottom: 32px;
 }
 
-.hero-content> h1> span{
+.hero-content>h1>span {
     color: rgba(0, 160, 0, 1);
 }
 
-.hero-content> p {
+.hero-content>p {
     width: 503px;
     font-size: 18px;
-    text-align:justify; 
+    text-align: justify;
     color: rgba(0, 0, 1, 1);
     padding-bottom: 32px;
 }
 
-.hero-content> .space-btn{
+.hero-content>.space-btn {
     display: flex;
     gap: 24px;
 }
 
-.space-btn> button{
+.space-btn>button {
     font-size: 16px;
     padding: 16px 32px 16px 32px;
     border: solid rgba(0, 160, 0, 1);
@@ -141,14 +137,14 @@ main>.hero{
     cursor: pointer;
 }
 
-.space-btn> .Order{
+.space-btn>.Order {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 160, 0, 1);
 }
 
 /* ---------------------------finish-hero----------------------------------- */
 
-main> .Why-Choose-Us{
+.Why-Choose-Us {
     margin-top: 102px;
     padding: 100px;
     display: flex;
@@ -157,18 +153,18 @@ main> .Why-Choose-Us{
     background-color: var(--cor-BGOverlay);
 }
 
-.Why-Choose-Us> h2{
+.Why-Choose-Us>h2 {
     font-size: 48px;
     color: var(--cor-black);
     padding-bottom: 7px;
 }
 
-.Why-Choose-Us> p{
+.Why-Choose-Us>p {
     font-size: 18px;
     color: var(--cor-grey2);
 }
 
-.Why-Choose-Us> .reasons{
+.Why-Choose-Us>.reasons {
     padding-top: 60px;
     display: flex;
     justify-content: space-evenly;
@@ -176,7 +172,7 @@ main> .Why-Choose-Us{
     gap: 20px;
 }
 
-.card-reason{
+.card-reason {
     width: 400px;
     display: flex;
     justify-content: center;
@@ -184,25 +180,25 @@ main> .Why-Choose-Us{
     flex-direction: column;
 }
 
-.reasons> .card-reason> img{
+.reasons>.card-reason>img {
     width: 216px;
     height: 216px;
     padding-bottom: 40px;
 }
 
-.card-reason> h3{
+.card-reason>h3 {
     color: var(--cor-black);
     font-size: 28px;
     padding-bottom: 8px;
 }
 
-.card-reason> p{
+.card-reason>p {
     width: 275px;
     font-size: 18px;
     text-align: center;
 }
 
-.status{
+.status {
     padding-top: 60px;
     display: flex;
     justify-content: space-evenly;
@@ -210,7 +206,7 @@ main> .Why-Choose-Us{
     gap: 20px;
 }
 
-.status> .card-status{
+.status>.card-status {
     width: 400px;
     display: flex;
     justify-content: center;
@@ -219,12 +215,12 @@ main> .Why-Choose-Us{
     gap: 8px;
 }
 
-.card-status> h3{
+.card-status>h3 {
     font-size: 48px;
     color: var(--cor-black);
 }
 
-.special-dishes{
+.special-dishes {
     margin-top: 60px;
     padding: 100px;
     display: flex;
@@ -233,25 +229,25 @@ main> .Why-Choose-Us{
     flex-direction: column;
 }
 
-.special-dishes> h2{
+.special-dishes>h2 {
     font-size: 48px;
     color: var(--cor-black);
     padding-bottom: 60px;
 }
 
-.special-dishes> .space-food{
+.special-dishes>.space-food {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.space-food> .card-food> img{
+.space-food>.card-food>img {
     width: 250px;
     height: 242px;
 }
 
-.space-food> .card-food{
+.space-food>.card-food {
     width: 400px;
     height: 483px;
     padding: 24px;
@@ -261,13 +257,13 @@ main> .Why-Choose-Us{
     flex-direction: column;
 }
 
-.card-food> h3{
+.card-food>h3 {
     font-size: 28px;
     color: var(--cor-black);
     padding-bottom: 16px;
 }
 
-.card-food> p{
+.card-food>p {
     width: 279px;
     color: var(--cor-black);
     padding-bottom: 16px;
@@ -275,7 +271,7 @@ main> .Why-Choose-Us{
     text-align: center;
 }
 
-.card-food> button{
+.card-food>button {
     width: 100%;
     padding: 16px 32px 16px 32px;
     display: flex;
@@ -290,7 +286,7 @@ main> .Why-Choose-Us{
     border: none;
 }
 
-.What-our-clients{
+.What-our-clients {
     padding: 100px 112px 100px 112px;
     background-color: var(--cor-BGOverlay);
     display: flex;
@@ -299,19 +295,19 @@ main> .Why-Choose-Us{
     flex-direction: column;
 }
 
-.What-our-clients> h2{
-    font-size: 28px;
+.What-our-clients>h2 {
+    font-size: 48px;
     color: var(--cor-black);
 }
 
-.What-our-clients> .space-clients{
+.What-our-clients>.space-clients {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 21px;
 }
 
-.card-clients{
+.card-clients {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,31 +320,31 @@ main> .Why-Choose-Us{
     transition: 0.5s;
 }
 
-.card-clients:hover{
+.card-clients:hover {
     transform: translatey(20px);
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-.card-clients> img{
+.card-clients>img {
     width: 100px;
     height: 100px;
     padding-bottom: 24px;
 }
 
-.card-clients> h3{
+.card-clients>h3 {
     font-size: 28px;
     color: var(--cor-black);
     padding-bottom: 16px;
 }
 
- .card-clients > p{
+.card-clients>p {
     width: 319px;
     font-size: 18px;
     color: var(--cor-black);
     text-align: center;
 }
 
-.about-us{
+.about-us {
     margin-top: 60px;
     padding: 100px;
     display: flex;
@@ -356,24 +352,23 @@ main> .Why-Choose-Us{
     gap: 82px;
 }
 
-.about-content{
+.about-content {
     display: flex;
     flex-direction: column;
     width: 558px;
     gap: 24px;
 }
 
-.about-content>h2{
+.about-content>h2 {
     font-size: 40px;
 }
 
-.about-content>p{
+.about-content>p {
     text-align: justify;
-    width: 558px    ;
+    width: 558px;
 }
 
-.about-content>button{
-    width: 157px;
+.about-content>button {
     padding: 16px 32px 16px 32px;
     border-radius: 10px;
     cursor: pointer;
@@ -382,7 +377,7 @@ main> .Why-Choose-Us{
     border: none;
 }
 
-.subscribe-to-our-newsteller{
+.subscribe-to-our-newsteller {
     margin-top: 60px;
     padding: 100px 365px 100px 365px;
     display: flex;
@@ -393,22 +388,22 @@ main> .Why-Choose-Us{
     gap: 60px;
 }
 
-.subscribe-content{
+.subscribe-content {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 8px;
 }
 
-.subscribe-content>h2{
+.subscribe-content>h2 {
     font-size: 48px;
 }
 
-.subscribe-content>p{
+.subscribe-content>p {
     font-size: 18px;
 }
 
-.space-to-write{
+.space-to-write {
     display: flex;
     justify-content: center;
     padding: 8px 8px 8px 24px;
@@ -417,23 +412,23 @@ main> .Why-Choose-Us{
     gap: 301px;
 }
 
-.space-to-write>button{
+.space-to-write>button {
     width: 174px;
     padding: 16px 32px 16px 32px;
     background-color: var(--cor-primary);
     border-radius: 8px;
     border: none;
-    font-size:24px;
+    font-size: 24px;
     color: var(--cor-white);
     cursor: pointer;
 }
 
-.space-to-write>input{
+.space-to-write>input {
     border: none;
-    outline:none;
+    outline: none;
 }
 
-footer{
+footer {
     margin-top: 60px;
     padding: 100px;
     display: flex;
@@ -443,13 +438,13 @@ footer{
     gap: 80px;
 }
 
-footer>.space-content{
+footer>.space-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 175px;
 }
 
-.space-content>.logo-icons>.footer-icons{
+.space-content>.logo-icons>.footer-icons {
     display: flex;
     justify-content: start;
     padding-top: 24px;
@@ -457,33 +452,33 @@ footer>.space-content{
 
 }
 
-.space-content>.logo-icons>.footer-icons>i{
+.space-content>.logo-icons>.footer-icons>i {
     color: var(--cor-white);
     font-size: 17px;
 
 }
 
-.space-content>.footer-navigation{
+.space-content>.footer-navigation {
     display: flex;
     justify-content: center;
     gap: 239px;
 }
 
-.footer-navigation>.footer-container>nav>.item-title{
+.footer-navigation>.footer-container>nav>.item-title {
     color: var(--cor-white);
     font-family: 'Gilroy-bold';
     padding-bottom: 24px;
     font-size: 18px;
 }
 
-.footer-navigation>.footer-container>nav>ul{
+.footer-navigation>.footer-container>nav>ul {
     display: flex;
     gap: 16px;
     flex-direction: column;
 }
 
 
-.footer-navigation>.footer-container>nav>ul>.footer-item>a{
+.footer-navigation>.footer-container>nav>ul>.footer-item>a {
     display: flex;
     gap: 16px;
     flex-direction: column;
@@ -492,19 +487,270 @@ footer>.space-content{
     font-size: 18px;
 }
 
-footer>.rodape{
+footer>.rodape {
     width: 1240px;
     border-top: solid var(--cor-white);
     display: flex;
     justify-content: center;
-
 }
 
-footer>.rodape>p{
+footer>.rodape>p {
     font-size: 20px;
     color: var(--cor-white);
     align-items: center;
     padding-top: 16px;
+}
+
+@media (max-width: 428px) {
+    header {
+        display: flex;
+        padding: 49px 20px;
+    }
+
+    header>nav {
+        display: none;
+    }
+
+
+    header>img {
+        width: 100px;
+        height: 33px;
+    }
+
+    .space-navigation>.space-icons>a>.fa-solid {
+        font-size: 20PX;
+        cursor: pointer;
+    }
+
+    .space-navigation>button {
+        font-size: 12px;
+        padding: 6px 10px 6px 10px;
+        cursor: pointer;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .hero>.hero-content {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .hero-content>h1 {
+        /* font-family: 'Gilroy-medium'; */
+        font-size: 40px;
+        color: rgba(0, 0, 1, 1);
+        padding-bottom: 32px;
+    }
+
+    .hero-content>p {
+        width: 290px;
+        font-size: 18px;
+        text-align: justify;
+        padding-bottom: 32px;
+    }
+
+    .hero-content>.space-btn {
+        display: flex;
+        justify-content: start;
+        gap: 24px;
+    }
+
+    .space-btn>button {
+        display: flex;
+        font-size: 15px;
+        padding: 6px 15px 6px 15px;
+    }
+
+    .hero>img {
+        width: 451px;
+        height: 394px;
+    }
+
+    .Why-Choose-Us {
+        margin-top: 102px;
+        padding: 90px;
+        display: flex;
+    }
+
+    .Why-Choose-Us>h2 {
+        font-size: 38px;
+        text-align: center;
+        color: var(--cor-black);
+        padding-bottom: 7px;
+    }
+
+    .Why-Choose-Us>p {
+        font-size: 18px;
+        color: var(--cor-grey2);
+        text-align: center;
+    }
+
+    .Why-Choose-Us>.reasons {
+        flex-direction: column;
+    }
+
+    .card-reason {
+        width: 300px;
+    }
+
+    .status {
+        flex-direction: column;
+    }
+
+    .status>.card-status {
+        width: 300px;
+    }
+
+    .special-dishes {
+        padding: 90px;
+    }
+
+    .special-dishes>h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .special-dishes>.space-food {
+        flex-direction: column;
+    }
+
+    .space-food>.card-food {
+        width: 300px;
+    }
+
+    .What-our-clients {
+        padding: 90px;
+    }
+
+    .What-our-clients>h2 {
+        font-size: 38px;
+        color: var(--cor-black);
+        text-align: center;
+    }
+
+    .What-our-clients>p {
+        text-align: center;
+        color: var(--cor-grey2);
+    }
+
+    .What-our-clients>.space-clients {
+        flex-direction: column;
+    }
+
+    .card-clients {
+        padding: 40px 20px 82px 20px;
+    }
+
+    .about-us {
+        padding: 90px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 458px;
+        gap: 24px;
+    }
+
+    .about-content>h2 {
+        display: flex;
+        font-size: 38px;
+    }
+
+    .about-content>p {
+        font-size: 18px;
+        width: 358px;
+    }
+
+    .about-us>img {
+        width: 300px;
+    }
+
+    .subscribe-to-our-newsteller {
+        padding: 90px;
+    }
+
+    .subscribe-content {
+        text-align: center;
+    }
+
+    .subscribe-content>h2 {
+        font-size: 38px;
+    }
+
+    .space-to-write {
+        padding: 4px 4px 4px 4px;
+        gap: 17px;
+    }
+
+    .space-to-write>button {
+        padding: 6px 2px 6px 2px;
+        font-size: 14px;
+    }
+
+    footer {
+        margin-top: 60px;
+        padding: 90px;
+        display: flex;
+        align-items: center;
+        background-color: var(--cor-primary);
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    footer>.space-content {
+        gap: 80px;
+    }
+
+    .space-content>.logo-icons>img {
+        width: 100px;
+        height: 33px;
+    }
+
+    .space-content>.logo-icons>.footer-icons>i {
+        color: var(--cor-white);
+        font-size: 17px;
+    }
+
+    .space-content>.footer-navigation {
+        display: flex;
+        justify-content: center;
+        gap: 23px;
+    }
+
+    .footer-navigation>.footer-container>nav>.item-title {
+        font-size: 15px;
+    }
+
+    .footer-navigation>.footer-container>nav>ul>.footer-item>a {
+        font-size: 12px;
+    }
+
+    footer>.rodape {
+        width: 428px;
+        border-top: solid var(--cor-white);
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -529,11 +775,4 @@ footer>.rodape>p{
 
 
 
-
-
-
-
-
-
-
-
+}
