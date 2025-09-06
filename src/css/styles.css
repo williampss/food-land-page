@@ -49,6 +49,22 @@ header>nav {
     gap: 40px;
 }
 
+header .menu-toggle {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+header .menu-toggle span {
+    background-color: black;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+}
+
+
 header>nav>a {
     /* font-family: 'Gilroy-medium'; */
     font-size: 16px;
@@ -511,6 +527,9 @@ footer>.rodape>p {
         display: none;
     }
 
+    header .menu-toggle {
+        display: flex;
+    }
 
     header>img {
         width: 100px;
@@ -737,7 +756,7 @@ footer>.rodape>p {
     }
 
     footer>.rodape {
-        width: 428px;
+        width: 42px;
         border-top: solid var(--cor-white);
         display: flex;
         justify-content: center;
